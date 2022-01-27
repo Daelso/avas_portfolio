@@ -1,5 +1,5 @@
 :root{
-    --background: #3D4849; 
+    --background: #f1ecec;
 
 }
 
@@ -32,7 +32,7 @@ body{
 
 header h1{
     text-align: center;
-    color: white;
+    color: #FF80AD;
     vertical-align: middle;
     font: 2vw ffxiv;
     padding-left: 15px;
@@ -46,12 +46,12 @@ header h1{
     margin: 0 auto;
     margin-top: 10px;
     padding: 1.5em;
-    background-color: rgba(46, 43, 43, 0.4);
+    background-color: rgba(216, 228, 228, 0.4);
 }
 
 .menu{
     font: 1vw ffxiv;
-    color: white;
+    color: #FF80AD;
 }
 
 .menu-item{
@@ -71,12 +71,12 @@ nav{
     font: 2vw ffxiv;
     margin-top: 10px;
     vertical-align: middle;
-    color: white;
+    color: #FF80AD;
 }
 
 .previous_work{
     text-align: center;
-    color: white;
+    color: #FF80AD;
     display: block;
     font: 1.3rem Inconsolata, monospace;
     font-size: 55%;
@@ -87,7 +87,7 @@ nav{
 footer{
     text-align: center;
     font-size: 0.8em;
-    color: white;
+    color: #FF80AD;
     font: 1.3rem Inconsolata, monospace;
     clear: both;
     position: relative;
@@ -98,7 +98,7 @@ footer{
 }
 
 a {
-    color: white;
+    color: #FF80AD;
 
 }
 a img{
@@ -175,8 +175,8 @@ a img:hover{
     margin-right: auto;
     border-radius: 25%;
     padding: 2px 2px 0;
-    background-color: #3d4249;
-    box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+    background-color: #FF80AD;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
     transition: box-shadow 0.3s ease-in-out;
     transition: transform .2s;
     -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
@@ -251,9 +251,9 @@ a img:hover{
         margin: 25px auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
-        background-color: #3d4249;
+        background-color: #edf3f3;
         font: 1.3rem Inconsolata, monospace;
-        color: white;
+        color: #FF80AD;
         transition: transform .2s;
     }
 
@@ -285,12 +285,17 @@ a img:hover{
   }
 
 
+  .gallery-link{
+      text-align: center;
+  }
+
 #card-link{
-background-color: var(--background);
-border: 1px solid var(--background);
+background-color: rgb(237, 243, 237);
+border: 1px solid #FF80AD;
 border-radius: 15%;
 text-align: center;
 margin-left: 43px;
+color: #FF80AD;
 
 }
 
@@ -300,19 +305,3 @@ margin-left: 43px;
 
 
 }
-
-
-#card-link-ss13{
-    background-color: var(--background);
-    border: 1px solid var(--background);
-    border-radius: 10%;
-    text-align: center;
-    margin-left: 37%;
-    
-    }
-
-    #card-link-ss13:hover{
-        background-color: #493d48;
-
-
-    }
