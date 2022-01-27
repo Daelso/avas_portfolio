@@ -49,6 +49,23 @@ header h1{
     background-color: rgba(46, 43, 43, 0.4);
 }
 
+.menu{
+    font: 1vw ffxiv;
+    color: white;
+}
+
+.menu-item{
+margin-top: 15px;
+
+}
+
+.size{
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+
 nav{
     text-align: center;
     font: 2vw ffxiv;
