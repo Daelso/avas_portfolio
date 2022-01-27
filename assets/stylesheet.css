@@ -1,0 +1,247 @@
+:root{
+    --background: #3D4849; 
+
+}
+html{
+    scroll-behavior: smooth;
+    overflow: scroll;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+
+}
+
+body{
+    background-color: var(--background);
+
+}
+
+
+header h1{
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    font: 2.5vw Inconsolata, monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
+
+nav{
+    text-align: center;
+    font-size: 60%;
+    margin-top: 10px;
+    vertical-align: middle;
+    color: white;
+}
+
+.previous_work{
+    text-align: center;
+    color: white;
+    display: block;
+    font: 1.3rem Inconsolata, monospace;
+    font-size: 55%;
+    margin-top: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    font: 1.3rem Inconsolata, monospace;
+    clear: both;
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear:both;
+    padding-top:180px;
+}
+
+a {
+    color: white;
+
+}
+a img{
+
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: 10px;
+
+}
+
+.first_image{
+    flex-direction: row;
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    vertical-align: middle;
+}
+
+
+.image_text{
+    position: relative;
+    bottom: 20px;
+    left: 17px;
+    font-size: 40%;
+    word-wrap: normal;
+}
+
+.about_me{
+    clear:both;
+     margin: auto;
+    font: 1vw Inconsolata, monospace;
+    color: white;
+    text-align: center;
+
+}
+
+a img:hover{
+    transition: all 0.2s ease-in-out;
+    color: rgba(255, 255, 255, 0.8);
+    background: var(--background);
+    padding: 15px 40px;
+    border-radius: 4px;
+
+}
+
+.pfp{
+    background-image: url("../assets/images/dredd.jpg");
+    background-size: contain;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+
+}
+
+
+.pfp:hover, .hide_ss13{
+    padding: 15px 40px;
+    border-style: solid;
+    border-color: cyan;
+
+} 
+
+#contact_me{
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+    font: 1.3rem Inconsolata, monospace;
+    clear: both;
+
+
+}
+
+#previous{
+    font: 1.3rem Inconsolata, monospace;
+
+
+}
+
+#wrapper .text {
+    position:absolute;
+    bottom:30px;
+    margin-left: 575px;
+    visibility:hidden;
+    font-size: 0.8rem;
+    word-wrap: break-word;
+    display: inline-block;
+    }
+    
+    #wrapper:hover .text {
+    visibility:visible;
+    display: inline-block;
+    }
+
+#wrapper .text_two {
+    position:absolute;
+    bottom:30px;
+    margin-left: 575px;
+    margin-bottom: -190px;
+    visibility:hidden;
+    font-size: 0.8rem;
+    word-wrap: break-word;
+        }
+
+#wrapper:hover .text_two {
+    visibility:visible;
+     }
+     
+#wrapper .text_three {
+    position:absolute;
+    top:720px;
+    margin-left: 575px;
+    visibility:hidden;
+    font-size: 0.8rem;
+    word-wrap: normal;
+            }
+    
+#wrapper:hover .text_three {
+    visibility:visible;}   
+
+
+.card {
+        margin: 25px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        background-color: #3d4249;
+        font: 1.3rem Inconsolata, monospace;
+        color: white;
+}
+
+@media screen and (max-width: 750px) {
+    .first_image,
+    .about_me p,
+    .about_me h1
+    {
+        font-size: 3.2vw;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    a img
+    {
+        margin-left: 110px;
+    }
+  }
+
+
+#card-link{
+background-color: var(--background);
+border: 1px solid var(--background);
+border-radius: 15%;
+text-align: center;
+margin-left: 43px;
+
+}
+
+
+#card-link:hover{
+    background-color: #493d48;
+
+
+}
+
+
+#card-link-ss13{
+    background-color: var(--background);
+    border: 1px solid var(--background);
+    border-radius: 10%;
+    text-align: center;
+    margin-left: 37%;
+    
+    }
+
+    #card-link-ss13:hover{
+        background-color: #493d48;
+
+
+    }
